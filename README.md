@@ -14,4 +14,9 @@
 6. docker run -d --name nats-server -p 4222:4222 -p 8222:8222 nats
 ```
 
-## TEST RAMA BESTRADA 
+
+## PROD
+1. Ejecutar
+```
+docker build -f dockerfile.prod -t client-gateway .
+```
