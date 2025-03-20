@@ -16,3 +16,5 @@ steps:
         "push",
         "northamerica-south1-docker.pkg.dev/tienda-microservicios-454219/image-registry/auth-microservice",
       ]
+options:
+  logging: CLOUD_LOGGING_ONLY
